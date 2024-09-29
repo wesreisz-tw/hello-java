@@ -10,7 +10,7 @@ reference:
 
 ### deploy to gCloud
 `export REGION=us-east2`
-`gcloud functions deploy java-http-function \
+`gcloud functions deploy hello-java-function \
 --gen2 \
 --entry-point=functions.HelloWorld \
 --runtime=java17 \
